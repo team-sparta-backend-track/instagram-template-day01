@@ -7,13 +7,14 @@
 - spring.datasource 를 현재 로컬 데이터베이스나 원격 데이터베이스에 맞게 변경하세요.
 ```yml
 server:
-  port: 8090  
+  port: 8900  
 
 spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    # driver-class-name: 
+    # driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mariadb://localhost:3306/instagram
+    # url: jdbc:mysql://localhost:3306/instagram
     username: root
     password: mariadb
   
@@ -21,4 +22,4 @@ spring:
 
 ## 3. src/main/java/com/example/instagramclone/InstagramCloneTemplateApplication을 실행합니다.
 
-## 4. 브라우저에서 http://localhost:8090 으로 접속합니다.
+## 4. 브라우저에서 http://localhost:8900 으로 접속합니다.
