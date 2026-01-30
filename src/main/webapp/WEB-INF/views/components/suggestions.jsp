@@ -43,7 +43,7 @@
       <a href="#">Meta Verified</a>
     </nav>
     <div class="copyright">
-      © 2024 INSTAGRAM FROM META
+      © 2026 INSTAGRAM FROM META
     </div>
   </div>
 </div>
