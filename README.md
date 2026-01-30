@@ -12,8 +12,9 @@ server:
 spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    # driver-class-name: 
+    # driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mariadb://localhost:3306/instagram
+    # url: jdbc:mysql://localhost:3306/instagram
     username: root
     password: mariadb
   
